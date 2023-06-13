@@ -5,7 +5,7 @@ import { Global } from '@emotion/react';
 import 'modern-normalize';
 import { GlobalStyles } from './styles/GlobalStyles.styled';
 
-import { App } from './components/App/App';
+import { App } from './components/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
