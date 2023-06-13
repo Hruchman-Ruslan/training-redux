@@ -40,8 +40,13 @@ import { Button } from 'components/Button/Button';
 import { statusFilters } from '../../redux/constants';
 
 import css from './StatusFilter.module.css';
+
 import { getStatusFitler } from 'redux/selectors';
 import { setStatusFilter } from 'redux/actions';
+
+//=============== After next Lvl + createSlice ========================
+// import { setStatusFilter } from 'redux/filtersSlice';
+//===============  ========================
 
 export const StatusFilter = () => {
   const dispatch = useDispatch();

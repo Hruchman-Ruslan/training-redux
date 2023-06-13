@@ -1,7 +1,12 @@
 import { MdClose } from 'react-icons/md';
 import css from './Task.module.css';
 import { useDispatch } from 'react-redux';
+
 import { deleteTask, toggleCompleted } from 'redux/actions';
+
+//=============== After next Lvl + createSlice ========================
+// import { deleteTask, toggleCompleted0 } from 'redux/tasksSlice';
+//===============  ========================
 
 export const Task = ({ task }) => {
   const dispatch = useDispatch();
